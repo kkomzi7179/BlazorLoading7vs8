@@ -3,19 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7BlazorWebAssembly.Server", "DotNet7BlazorWebAssembly\Server\DotNet7BlazorWebAssembly.Server.csproj", "{75088A0F-9F21-4C52-ABCE-0438DF7A4CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7BlazorWebAssembly.Server", "DotNet7BlazorWebAssembly\Server\DotNet7BlazorWebAssembly.Server.csproj", "{75088A0F-9F21-4C52-ABCE-0438DF7A4CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7BlazorWebAssembly.Client", "DotNet7BlazorWebAssembly\Client\DotNet7BlazorWebAssembly.Client.csproj", "{B24EED73-90B0-4D42-BAC4-0B8F77C441E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7BlazorWebAssembly.Client", "DotNet7BlazorWebAssembly\Client\DotNet7BlazorWebAssembly.Client.csproj", "{B24EED73-90B0-4D42-BAC4-0B8F77C441E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7BlazorWebAssembly.Shared", "DotNet7BlazorWebAssembly\Shared\DotNet7BlazorWebAssembly.Shared.csproj", "{13BBE5C8-137C-4D51-9E3C-C9463BFE80D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7BlazorWebAssembly.Shared", "DotNet7BlazorWebAssembly\Shared\DotNet7BlazorWebAssembly.Shared.csproj", "{13BBE5C8-137C-4D51-9E3C-C9463BFE80D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet7BlazorWebAssemblyAppGroup", "DotNet7BlazorWebAssemblyAppGroup", "{ECA74C8A-D471-4EC7-9846-D64B481E201B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet8BlazorWebAppGroup", "DotNet8BlazorWebAppGroup", "{42A6A0DD-AB1C-49A7-B45F-FBE7FCDBE5A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8BlazorWebApp", "DotNet8BlazorWebApp\DotNet8BlazorWebApp\DotNet8BlazorWebApp.csproj", "{DD972D54-EAEE-45B0-BCFC-52054D670EAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8BlazorWebApp", "DotNet8BlazorWebApp\DotNet8BlazorWebApp\DotNet8BlazorWebApp.csproj", "{DD972D54-EAEE-45B0-BCFC-52054D670EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8BlazorWebApp.Client", "DotNet8BlazorWebApp\DotNet8BlazorWebApp.Client\DotNet8BlazorWebApp.Client.csproj", "{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8BlazorWebApp.Client", "DotNet8BlazorWebApp\DotNet8BlazorWebApp.Client\DotNet8BlazorWebApp.Client.csproj", "{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6BlazorWebAssemblyAppGroup.Server", "DotNet6BlazorWebAssemblyAppGroup\Server\DotNet6BlazorWebAssemblyAppGroup.Server.csproj", "{88C6BF70-CA59-49FE-AEC6-651459CEF79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6BlazorWebAssemblyAppGroup.Client", "DotNet6BlazorWebAssemblyAppGroup\Client\DotNet6BlazorWebAssemblyAppGroup.Client.csproj", "{E7D0BC43-6B81-4F68-A811-9DC9F1770A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6BlazorWebAssemblyAppGroup.Shared", "DotNet6BlazorWebAssemblyAppGroup\Shared\DotNet6BlazorWebAssemblyAppGroup.Shared.csproj", "{082D3861-EF8B-40A6-9306-750B18069435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet6BlazorWebAssemblyAppGroup", "DotNet6BlazorWebAssemblyAppGroup", "{A2AFDD4D-60E1-4D2A-8419-145E6341A683}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,18 @@ Global
 		{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C6BF70-CA59-49FE-AEC6-651459CEF79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C6BF70-CA59-49FE-AEC6-651459CEF79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C6BF70-CA59-49FE-AEC6-651459CEF79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C6BF70-CA59-49FE-AEC6-651459CEF79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D0BC43-6B81-4F68-A811-9DC9F1770A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D0BC43-6B81-4F68-A811-9DC9F1770A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D0BC43-6B81-4F68-A811-9DC9F1770A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D0BC43-6B81-4F68-A811-9DC9F1770A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082D3861-EF8B-40A6-9306-750B18069435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082D3861-EF8B-40A6-9306-750B18069435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082D3861-EF8B-40A6-9306-750B18069435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082D3861-EF8B-40A6-9306-750B18069435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +73,9 @@ Global
 		{13BBE5C8-137C-4D51-9E3C-C9463BFE80D3} = {ECA74C8A-D471-4EC7-9846-D64B481E201B}
 		{DD972D54-EAEE-45B0-BCFC-52054D670EAC} = {42A6A0DD-AB1C-49A7-B45F-FBE7FCDBE5A2}
 		{BEA5AC02-3408-4D83-A5EF-7D9A0747F98A} = {42A6A0DD-AB1C-49A7-B45F-FBE7FCDBE5A2}
+		{88C6BF70-CA59-49FE-AEC6-651459CEF79A} = {A2AFDD4D-60E1-4D2A-8419-145E6341A683}
+		{E7D0BC43-6B81-4F68-A811-9DC9F1770A02} = {A2AFDD4D-60E1-4D2A-8419-145E6341A683}
+		{082D3861-EF8B-40A6-9306-750B18069435} = {A2AFDD4D-60E1-4D2A-8419-145E6341A683}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A178522-F8D1-45B9-BFA7-0F581DF94E71}

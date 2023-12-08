@@ -1,6 +1,19 @@
-﻿<Router AppAssembly="@typeof(Program).Assembly">
+﻿@inject IJSRuntime JS
+
+<Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
 </Router>
+
+
+@code {
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.DeleteElementById("loadingInit");
+        }
+    }
+}
